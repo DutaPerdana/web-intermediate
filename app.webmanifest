@@ -1,0 +1,153 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "Story Application",
+  "short_name": "StoryApp",
+  "description": "Aplikasi story yang memungkinkan pengguna mengunggah cerita berdasarkan lokasi untuk dilihat oleh semua pengguna..",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#626f47",
+  "icons": [
+    {
+      "src": "images/icons/icon-x144f.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/maskable-icon-x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/Story_App_002.png",
+      "sizes": "1919x900",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/Story_App_003.png",
+      "sizes": "1919x895",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/Story_App_004.png",
+      "sizes": "1919x893",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/Story_App_005.png",
+      "sizes": "1919x882",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/Story_App_006.png",
+      "sizes": "1919x897",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/Story_App_001.png",
+      "sizes": "2229x900",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+
+    {
+      "src": "images/screenshots/Story_App_008.png",
+      "sizes": "518x620",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Story_App_009.png",
+      "sizes": "520x890",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Story_App_007.png",
+      "sizes": "518x651",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Story_App_010.png",
+      "sizes": "522x881",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Story_App_011.png",
+      "sizes": "501x898",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Story_App_012.png",
+      "sizes": "510x891",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Upload Story Baru",
+      "short_name": "Baru",
+      "description": "Membuat Story Yang baru.",
+      "url": "/?source=pwa#/newStory",
+      "icons": [
+        {
+          "src": "images/icons/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Story Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat daftar Story tersimpan.",
+      "url": "/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/icons/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
