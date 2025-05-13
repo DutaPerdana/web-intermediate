@@ -1,7 +1,7 @@
 {
-  "id": "/#/",
-  "start_url": "/#/",
-  "scope": "/",
+  "id": /web-intermediate/#/",
+  "start_url": "/web-intermediate/#/",
+  "scope": "/web-intermediate/",
   "name": "Story Application",
   "short_name": "StoryApp",
   "description": "Aplikasi story yang memungkinkan pengguna mengunggah cerita berdasarkan lokasi untuk dilihat oleh semua pengguna..",
